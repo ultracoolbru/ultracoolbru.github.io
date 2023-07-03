@@ -2,11 +2,12 @@ function Navbar() {
     return (
         <div className="navbar">
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Resume</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">RESUME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">CONTACT</a></li>
             </ul>
             <ul>
                 <li className="downloadResume"><a href="#">Download Resume</a></li>

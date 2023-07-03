@@ -1,17 +1,23 @@
 body {
-  display: block;
+  display: inline;
   text-align: center;
   margin: 0;
+  background-color: #1f1b24;
+}
+
+.header {
+  padding: 20px;
 }
 
 .navbar {
   display: inline-flex;
-  background-color: #999999;
-  margin-top: 120px;  
+  background-color: #3e3a44;
+  margin-top: 10px;  
   border-top-left-radius: 60px;
   border-bottom-left-radius: 60px;
   border-top-right-radius: 60px;
   border-bottom-right-radius: 60px;
+  box-shadow: #000 5px 5px 15px 0px;
 }
 
 .navbar li {
@@ -33,17 +39,43 @@ body {
 }
 
 .downloadResume {
-  border: 1px solid #8ebf9b;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
   border-top-left-radius: 60px;
   border-bottom-left-radius: 60px;
   border-top-right-radius: 60px;
   border-bottom-right-radius: 60px;
-}
-
-.downloadResume {
   margin-right: 30px;
 }
 
+.downloadResume a {
+  color: #000000 !important;
+}
+
+/* Start Avatar Card */
+.avatar-card {
+  display: inline-block;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  justify-content: center;
+  box-shadow: #000 5px 5px 15px 0px;
+  padding: 20px;
+}
+
+.avatar-card__avatar img {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  border: 1px solid #ffffff;
+}
+
+.avatar-card__info {
+  color: #ffffff;
+}
+
+/* End Avatar Card */
 
 .App-logo {
   height: 40vmin;
